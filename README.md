@@ -9,7 +9,7 @@ git clone https://github.com/Priyesh-Kun/rhoCentralFOAM_shock_buffeting.git
 
 **Change the directory**
 ```
-cd rhoCentralFOAM_shock_buffeting.git
+cd rhoCentralFOAM_shock_buffeting
 ```
 
 **Open openfoam**
