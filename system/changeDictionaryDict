@@ -1,0 +1,59 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  2406
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      changeDictionaryDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+boundary
+{
+    bottom
+    {
+        type            symmetryPlane;
+    }
+}
+
+p
+{
+    boundaryField
+    {
+        bottom
+        {
+            type            symmetryPlane;
+        }
+    }
+}
+
+U
+{
+    boundaryField
+    {
+        bottom
+        {
+            type            symmetryPlane;
+        }
+    }
+}
+
+T
+{
+    boundaryField
+    {
+        bottom
+        {
+            type            symmetryPlane;
+        }
+    }
+}
+
+// Add other fields as needed
+
